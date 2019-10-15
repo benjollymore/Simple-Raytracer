@@ -6,6 +6,7 @@
 Implementation of a Vec3 Class.
 Heavily based upon Eigen library's base
 functionality without additonal overhead
+With elements drawn from Raytracing in one weekend
 */
 
 class Vec3  {
