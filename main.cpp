@@ -94,8 +94,8 @@ int main() {
 	sphereContainer.push_back(Sphere(Vec3(-3, 1, 0), 2, new  Diffuse(Vec3(1, .4, .8))));
 
 	//Camera initialzation, current viewpoint is arbitrary, can be changed
-    Vec3 viewPoint(15,2,2);  //15 2 2 //5 5 5 
-    Vec3 viewTarget(0,0,0); //0 0 0 //1 1 1
+    Vec3 viewPoint(5,5,5);  //15 2 2 //5 5 5 
+    Vec3 viewTarget(1,1,1); //0 0 0 //1 1 1
     Camera camera(viewPoint, viewTarget, Vec3(0,1,0), 15, float(width)/float(height));
 
 	//Cast rays for every pixel
